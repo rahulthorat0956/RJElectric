@@ -1,0 +1,351 @@
+/*
+Template Name: Electrician
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************about_h****************/
+.about_h2il h3{
+width:170px;
+height:170px;
+line-height:170px;
+border:3px solid #4e3523; 
+ }
+/*********************about_h_end****************/
+
+/*********************serv_o****************/
+.serv_o1i span{
+width:120px;
+height:120px;
+line-height:120px; 
+ }
+/*********************serv_o_end****************/
+
+/*********************team_h****************/
+
+/*********************price****************/
+#price {
+background-image: url(../img/9.jpg);
+background-position: center;
+}
+.price_1ril span{
+width:120px;
+height:120px;
+line-height:120px; 
+ }
+.price_1r hr{
+background:#1c2428; 
+ }
+.price_1l{
+padding-top:150px; 
+ }
+/*********************price_end****************/
+
+
+@media screen and (max-width : 767px){
+.caption_il  br{
+display:none; 
+ }
+.caption_il  {
+text-align:center;
+margin-bottom:15px;
+padding-top:0!important; 
+ }
+.caption_il p {
+text-align:left; 
+ }
+.caption_il .font_50 {
+font-size:36px!important;
+ }
+.about_h1r{
+margin-top:15px;
+text-align:center; 
+ }
+.about_h1r p{
+text-align:left; 
+ }
+.about_h1ri1r{
+margin-top:10px; 
+ }
+.about_h2i {
+text-align:center;  
+ }
+.about_h2ir {
+padding-top:15px!important; 
+ }
+.about_h2i {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.serv_pg1{
+text-align:center; 
+ }
+.serv_pg1m{
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.serv_pg1rir{
+margin-top:15px; 
+ }
+.serv_o1i {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.serv_o1i p{
+text-align:left; 
+ }
+.price_1l{
+padding-top:0;
+margin-bottom:15px;
+text-align:center; 
+ }
+.price_1l .font_50{
+font-size:36px!important;
+ }
+.price_1ril{
+margin-bottom:15px;
+text-align:center; 
+ }
+.price_1rir{
+text-align:center; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.caption_ir img{
+min-height:400px; 
+ }
+.caption_il {
+padding-top:0!important; 
+ }
+.about_h1l img{
+min-height:450px;  
+ }
+.about_h1ri1l .font_60{
+font-size:40px!important; 
+ }
+.about_h2il h3 {
+width: 90px;
+height: 90px;
+line-height: 90px;
+}
+.about_h2ir {
+padding-top:20px!important; 
+ }
+.about_h2ir h4{
+font-size:16px;
+ }
+.serv_pg1m img{
+min-height:500px; 
+ }
+.serv_pg1ril .font_50{
+font-size:30px!important; 
+ }
+.price_1ril span {
+width: 70px;
+height: 70px;
+line-height: 70px;
+}
+.caption_il br{
+display:none;
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.caption_ir img{
+min-height:450px; 
+ }
+.caption_il br{
+display:none;
+ }
+.about_h1l img{
+min-height:450px;  
+ }
+.about_h2il h3 {
+width: 130px;
+height: 130px;
+line-height: 130px;
+}
+.about_h2ir {
+padding-top:30px!important; 
+ }
+.about_h2ir h4{
+font-size:18px;
+ }
+.price_1ril span {
+width: 70px;
+height: 70px;
+line-height: 70px;
+}
+.price_1ril span {
+width: 100px;
+height: 100px;
+line-height: 100px;
+}
+ }
+@media (min-width:1201px) and (max-width:1270px) {
+.caption_il br{
+display:none;
+ }
+.about_h2il h3 {
+width: 150px;
+height: 150px;
+line-height: 150px;
+}
+ }
+@media (min-width:1400px) and (max-width:2000px) {
+.about_h2il h3 {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+ }
+
+ .count-up {
+    font-size: 2rem;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: scaleUp 0.5s ease forwards;
+ }
+
+ @keyframes scaleUp {
+    100% {
+       opacity: 1;
+       transform: scale(1);
+    }
+ }
+
+ /* Fade-in animation for text  update the score*/
+ 
+ 
+  
+  .progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .progress .progress-left,
+  .progress .progress-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+  }
+  
+  .progress .progress-left .progress-bar {
+    border-left-color: #fff;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transform-origin: center left;
+    animation: progress-rotate-left 1.5s linear forwards;
+  }
+  
+  .progress .progress-right .progress-bar {
+    border-right-color: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transform-origin: center right;
+    animation: progress-rotate-right 1.5s linear forwards;
+  }
+  
+  @keyframes progress-rotate-left {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  @keyframes progress-rotate-right {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .progress .progress-value {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 70px;
+    top: 15%;
+    left: 15%;
+  }
+  
+  .progress.green .progress-left .progress-bar {
+    border-left-color: #00ff00;
+  }
+  
+  .progress.green .progress-right .progress-bar {
+    border-right-color: #00ff00;
+  }
+  
+  .progress.blue .progress-left .progress-bar {
+    border-left-color: #049dff;
+  }
+  
+  .progress.blue .progress-right .progress-bar {
+    border-right-color: #049dff;
+  }
+  
+  .progress.orange .progress-left .progress-bar {
+    border-left-color: #fdba04;
+  }
+  
+  .progress.orange .progress-right .progress-bar {
+    border-right-color: #fdba04;
+  }
+
+
+
+  /*  Service Zoom in hover effect  */
+  .serv_h2i {
+    transition: transform 0.3s ease;
+}
+
+.serv_h2i:hover {
+    transform: scale(1.05); /* Zoom in effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+.serv_h2i {
+  border: 2px solid transparent; /* Set a default border color */
+  transition: transform 0.3s, border-color 0.3s; /* Transition for smooth effect */
+}
+
+/* Zoom-in effect on hover */
+.serv_h2i:hover {
+  transform: scale(1.05); /* Zoom effect */
+  border-color: #ff5733; /* Change this color to your desired hover border color */
+}
